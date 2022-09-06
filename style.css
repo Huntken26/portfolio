@@ -1,0 +1,58 @@
+.left-h1 {
+    background-color:  rgb(142, 149, 151);
+    color: white;
+  width: 130px;
+  padding: 15px;
+  margin: 5px;
+  float: left;
+  font-size: 200%;
+}
+
+nav, li {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #161511;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .banner-image {
+    background-image: url(header.jpeg);
+   height: 500px;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+  }
+
+  #subtitle {
+    position: relative;
+    right: 10px;
+    top: 400px;
+    font-size: 200%;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    float: right;
+    border: 5px solid rgb(142, 149, 151);
+    background-color: rgb(142, 149, 151);
+    
+  }
+
+
+
