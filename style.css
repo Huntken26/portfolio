@@ -1,6 +1,19 @@
+* {
+
+    color: black;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: sans-serif;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+
 .left-h1 {
     background-color:  rgb(142, 149, 151);
-    color: white;
+    color: black;
   width: 130px;
   padding: 15px;
   margin: 5px;
@@ -12,7 +25,7 @@ nav, li {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #161511;
+    background-color: #4c4c4d50;
   }
   
   li {
@@ -21,13 +34,13 @@ nav, li {
   
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 40px 20px;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: rgb(88, 84, 84);
   }
 
   .banner-image {
@@ -46,13 +59,61 @@ nav, li {
     top: 400px;
     font-size: 200%;
     display: block;
-    color: white;
+    color: black;
     padding: 14px 16px;
     float: right;
-    border: 5px solid rgb(142, 149, 151);
     background-color: rgb(142, 149, 151);
-    
   }
 
+.subheading {
+    color: black;
+    float: left;
+  width: 33.33%;
+  padding: 15px;
+    font-size: 200%;
+    border-right: solid 5px rgb(142, 149, 151);
+}
 
+.paragraph{
+   text-align: center;
+    display: flex;
+    position: relative;
+    width: 800px;
+}
 
+.gallery {
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  .gallery:hover {
+    border: 5px solid rgb(142, 149, 151);
+  }
+  
+  .gallery img {
+    content: "";
+  display: table;
+  clear: both;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .section2 {
+    display: flex;
+  }
+
+  .contact-info li {
+    text-align: center;
+    padding: 20px 20px;
+    display: inline;
+    margin: 30px;
+    float: left;
+
+  }
