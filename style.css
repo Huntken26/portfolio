@@ -153,3 +153,26 @@ li a:hover {
   border-bottom: solid 5px black;
   background-color: lightgray;
 }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For desktop: */
+  .col-0 {width: 100%;}
+  .col-1 {width: 100%;}
+  .col-2 {width: 100%;}
+  .col-3 {width: 100%;}
+  .col-4 {width: 50%;}
+
+  .col-5 {width: 50%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 50%;}
+  .col-8 {width: 100%;}
+  .col-9 {width: 100%;}
+}
