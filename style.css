@@ -25,9 +25,14 @@ li {
   list-style-type: none;
   overflow: hidden;
   background-color: #272932;
+  
 }
 
 li {
+  float: left;
+}
+
+.right {
   float: right;
 }
 
@@ -80,8 +85,15 @@ li a:hover {
   line-height: 1.5em;
   margin: 30px;
 }
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+  margin-bottom: 50px;
+}
 
 #work1 {
+
   background-image: url(desk.jpg);
   background-size: 880px;
   width: 880px;
