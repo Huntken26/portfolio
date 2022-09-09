@@ -10,6 +10,7 @@ body {
   background-color: lightgray;
 }
 
+/*The nav section was a handful. I had to create these different classes,id's, element styles just to make it come out correct  */
 
 .left-h1 {
   background-color: lightgray;
@@ -92,6 +93,8 @@ li a:hover {
   margin-bottom: 50px;
 }
 
+/*Created these individual id's so that my images could be styled to match the mockup  */
+
 #work1 {
 
   background-image: url(desk.jpg);
@@ -138,6 +141,9 @@ li a:hover {
   margin: 20px;
 }
 
+/*Created this div class id's so that I could add text to the background images. Nothing else seemed to work  */
+
+
 .image-text {
   border: 5px solid navy;
   display: inline;
@@ -170,6 +176,7 @@ li a:hover {
   background-color: lightgray;
 }
 
+/*Needed these media queries because my site was looking way different on my laptop compared to my ultra wide screen*/
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
